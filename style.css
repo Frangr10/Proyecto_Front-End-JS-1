@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+    width: 80%;
+    min-width: 320px;
+    margin-top: 50px;
+}
+
+.show{
+    /* border: solid 2px ; */
+    /* width: 20%; */
+    border-radius: 10px;
+    margin: 20px;
+
+}
+
+.poster img{
+    border-radius: 8px;
+    width: 100%;
+}
+
+
+.img-hover{
+    opacity: 50%;
+
+} 
+
+
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: bisque;
+    height: 50px;
+    position: fixed;
+    top: 0;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    object-fit: contain;
+}
+
+.img-logo{
+    width: 25%;
+}
+
+
+.menu{
+    display: flex;
+}
+.menu-lista{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.menu-item{
+    margin: 10px;
+    width: 70px;
+    text-align: center;
+}
+
+    .menu-item:hover{
+        /* width: 100%; */
+        /* height: 100%; */
+        /* background-color: blueviolet; */
+        border-bottom: solid 2px blueviolet;
+        
+    }
+
+.a{
+    text-decoration: none;
+    color: #000;
+    margin: 0;
+}
+
+.busqueda{
+    width: 35%;
+    margin: auto;
+}
+
+#buscar{
+    border-radius: 10px;
+    width: 80%;
+    height: 27px;
+}
+
+
+.paginado{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    background-color: blue;
+
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+    padding: 0 10px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    width: 5rem;
+    height: 90%;
+    
+}
+
+.texto{
+}
